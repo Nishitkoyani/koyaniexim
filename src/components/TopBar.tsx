@@ -7,11 +7,11 @@ const TopBar = () => {
         <div className="flex items-center gap-6 flex-wrap">
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4" />
-            <span>Mumbai, Maharashtra, India</span>
+            <span>Dhoraji, Gujarat, India</span>
           </div>
           <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-accent transition-colors">
             <Phone className="w-4 h-4" />
-            <span>+91 98765 43210</span>
+            <span>+91 6352372170</span>
           </a>
         </div>
         <div className="flex items-center gap-6 flex-wrap">
