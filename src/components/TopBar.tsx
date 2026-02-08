@@ -19,9 +19,9 @@ const TopBar = () => {
             <Clock className="w-4 h-4" />
             <span>Mon - Sat 9:00 - 18:00</span>
           </div>
-          <a href="mailto:info@koyaniexim.in" className="flex items-center gap-2 hover:text-accent transition-colors">
+          <a href="mailto:exim.koyani@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
             <Mail className="w-4 h-4" />
-            <span>info@koyaniexim.in</span>
+            <span>exim.koyani@gmail.com</span>
           </a>
         </div>
       </div>
