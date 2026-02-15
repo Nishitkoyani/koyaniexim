@@ -48,16 +48,10 @@ const About = () => {
               <span className="text-primary">Premium Agro Products</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              Welcome to Fresh Exports, your trusted partner for premium-quality fresh fruits and 
-              vegetable exports. Strategically located in Mumbai, India, we have proudly served as 
-              a leading supplier of top-tier agro products for over 19 years.
+              Welcome to Koyani Exim, your emerging and trusted partner for premium-quality fresh fruits and vegetable exports. Based in Gujarat, India, we are a growing startup committed to delivering fresh, high-quality agro products to global markets.
             </p>
-            <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              Driven by a passion for excellence, our dedicated team is committed to ensuring 
-              unparalleled customer satisfaction through quality, reliability, and integrity in 
-              every shipment.
-            </p>
-
+            <p className="text-muted-foreground text-lg mb-8 leading-relaxed">As a newly established company, we bring fresh energy, strong dedication, and a clear vision for excellence in every shipment. Our team focuses on maintaining strict quality standards, timely delivery, and transparent business practices to build long-term relationships with our clients.</p>
+            <p className="text-muted-foreground text-lg mb-8 leading-relaxed">At Koyani Exim, we believe in growing together — with quality, reliability, and integrity at the heart of everything we do.</p>
             <div className="flex items-center gap-4 p-4 bg-card rounded-xl shadow-soft">
               <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
                 <Leaf className="w-7 h-7 text-primary" />

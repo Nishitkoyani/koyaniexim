@@ -59,10 +59,9 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed mb-6">
-              Your trusted partner for premium-quality fresh fruits and
-              vegetable exports from India to the world. Delivering freshness
-              and excellence since 2005.
+              Your trusted partner for premium-quality fresh fruits and vegetable exports from India to the world.
             </p>
+            <p className="text-primary-foreground/80 text-sm leading-relaxed mb-6">Growing with trust. Delivering with integrity.</p>
             <div className="flex gap-4">
               {socialLinks.map(({ icon: Icon, href, label }) => (
                 <a
