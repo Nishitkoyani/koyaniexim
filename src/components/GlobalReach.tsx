@@ -48,7 +48,7 @@ const GlobalReach = () => {
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 mb-8">
+            {/* <div className="grid grid-cols-3 gap-6 mb-8">
               <div className="text-center p-4 bg-primary-foreground/10 rounded-xl backdrop-blur-sm">
                 <Globe className="w-8 h-8 text-accent mx-auto mb-2" />
                 <span className="block text-3xl font-bold">25+</span>
@@ -64,7 +64,7 @@ const GlobalReach = () => {
                 <span className="block text-3xl font-bold">48hr</span>
                 <span className="text-sm text-primary-foreground/70">Fast Delivery</span>
               </div>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Countries Grid */}

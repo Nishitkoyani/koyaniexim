@@ -48,7 +48,7 @@ const Testimonials = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        {/* <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={testimonial.name}
@@ -58,24 +58,24 @@ const Testimonials = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="relative bg-card p-8 rounded-2xl shadow-soft hover:shadow-elevated transition-all duration-300"
             >
-              {/* Quote Icon */}
+              {/* Quote Icon 
               <div className="absolute -top-4 right-8 w-10 h-10 bg-secondary rounded-full flex items-center justify-center">
                 <Quote className="w-5 h-5 text-secondary-foreground" />
               </div>
 
-              {/* Stars */}
+              {/* Stars 
               <div className="flex gap-1 mb-4">
                 {Array.from({ length: testimonial.rating }).map((_, i) => (
                   <Star key={i} className="w-5 h-5 text-accent fill-accent" />
                 ))}
               </div>
 
-              {/* Content */}
+              {/* Content 
               <p className="text-foreground/80 mb-6 leading-relaxed italic">
                 "{testimonial.content}"
               </p>
 
-              {/* Author */}
+              {/* Author 
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                   <span className="text-primary font-bold text-lg">
@@ -89,7 +89,7 @@ const Testimonials = () => {
               </div>
             </motion.div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

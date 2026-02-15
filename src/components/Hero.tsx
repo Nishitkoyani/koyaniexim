@@ -56,7 +56,7 @@ const Hero = () => {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8 border-t border-primary-foreground/20">
+            {/* <div className="grid grid-cols-3 gap-6 pt-8 border-t border-primary-foreground/20">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -90,7 +90,7 @@ const Hero = () => {
                 </div>
                 <p className="text-sm text-primary-foreground/70">Years Experience</p>
               </motion.div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>
